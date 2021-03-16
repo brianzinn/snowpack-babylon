@@ -1,0 +1,25 @@
+{
+  "name": "snowpack-babylon",
+  "version": "0.0.2",
+  "keywords": [
+    "csa-template",
+    "snowpack",
+    "babylon.js",
+    "template"
+  ],
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1",
+    "format": "eslint --fix --ext .js .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@babylonjs/core": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "snowpack": "^3.0.1"
+  }
+}
